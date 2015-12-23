@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Wuziqi - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"\tmp\Wuziqi\Debug/Wuziqi.res" /d "_DEBUG" /d "_AFXDLL" "H:\最终\Wuziqi\SRC\Wuziqi\Wuziqi.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "GameUI" /I "GameLogical" /I "GameData" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"\tmp\Wuziqi\Debug/" /Fp"\tmp\Wuziqi\Debug/Wuziqi.pch" /Yu"stdafx.h" /Fo"\tmp\Wuziqi\Debug/" /Fd"\tmp\Wuziqi\Debug/" /FD /GZ /c 
+"H:\最终\Wuziqi\SRC\Wuziqi\MenAndComputer.cpp"
+"H:\最终\Wuziqi\SRC\Wuziqi\Win.cpp"
+"H:\最终\Wuziqi\SRC\Wuziqi\Wuziqi.cpp"
+"H:\最终\Wuziqi\SRC\Wuziqi\GameUI\WuziqiDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7B.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "GameUI" /I "GameLogical" /I "GameData" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"\tmp\Wuziqi\Debug/" /Fp"\tmp\Wuziqi\Debug/Wuziqi.pch" /Yc"stdafx.h" /Fo"\tmp\Wuziqi\Debug/" /Fd"\tmp\Wuziqi\Debug/" /FD /GZ /c 
+"H:\最终\Wuziqi\SRC\Wuziqi\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7C.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7D.tmp" with contents
+[
+vfw32.lib winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"\tmp\Wuziqi\Debug/COE五子棋.pdb" /debug /machine:I386 /out:"../../DISTRIBUTE/COE五子棋.exe" /pdbtype:sept 
+"\tmp\Wuziqi\Debug\MenAndComputer.obj"
+"\tmp\Wuziqi\Debug\StdAfx.obj"
+"\tmp\Wuziqi\Debug\Win.obj"
+"\tmp\Wuziqi\Debug\Wuziqi.obj"
+"\tmp\Wuziqi\Debug\WuziqiDlg.obj"
+"\tmp\Wuziqi\Debug\Wuziqi.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MenAndComputer.cpp
+h:\最终\wuziqi\src\wuziqi\resource.h(68) : warning C4005: 'IDC_HELP' : macro redefinition
+        c:\program files\microsoft visual studio\vc98\include\winuser.h(7187) : see previous definition of 'IDC_HELP'
+Win.cpp
+h:\最终\wuziqi\src\wuziqi\resource.h(68) : warning C4005: 'IDC_HELP' : macro redefinition
+        c:\program files\microsoft visual studio\vc98\include\winuser.h(7187) : see previous definition of 'IDC_HELP'
+H:\最终\Wuziqi\SRC\Wuziqi\Win.cpp(67) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+H:\最终\Wuziqi\SRC\Wuziqi\Win.cpp(67) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+H:\最终\Wuziqi\SRC\Wuziqi\Win.cpp(72) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+H:\最终\Wuziqi\SRC\Wuziqi\Win.cpp(72) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+H:\最终\Wuziqi\SRC\Wuziqi\Win.cpp(82) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+H:\最终\Wuziqi\SRC\Wuziqi\Win.cpp(82) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+H:\最终\Wuziqi\SRC\Wuziqi\Win.cpp(87) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+H:\最终\Wuziqi\SRC\Wuziqi\Win.cpp(87) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+Wuziqi.cpp
+h:\最终\wuziqi\src\wuziqi\resource.h(68) : warning C4005: 'IDC_HELP' : macro redefinition
+        c:\program files\microsoft visual studio\vc98\include\winuser.h(7187) : see previous definition of 'IDC_HELP'
+WuziqiDlg.cpp
+h:\最终\wuziqi\src\wuziqi\resource.h(68) : warning C4005: 'IDC_HELP' : macro redefinition
+        c:\program files\microsoft visual studio\vc98\include\winuser.h(7187) : see previous definition of 'IDC_HELP'
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+COE五子棋.exe - 0 error(s), 12 warning(s)
+</pre>
+</body>
+</html>
